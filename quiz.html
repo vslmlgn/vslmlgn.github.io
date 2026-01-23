@@ -198,14 +198,6 @@
     <input class="form-check-input" type="radio" name="logiciel5" id="radio1" value="35" checked>
     <label class="form-check-label" for="radio1">35%</label>
   </div>
-
-
-
-
-
-
-
-
 <button type="button" id="btnValider" class="btn btn-primary">valider</button>
 
 <p id="resultat" class="mt-3 fw-bold"></p>
@@ -216,7 +208,6 @@
 document.getElementById('btnValider').addEventListener('click', function() {
     let count = 0
 
-    // On cherche l'élément qui a le nom "logiciel" ET qui est coché (:checked)
     const radioSelectionne = document.querySelector('input[name="logiciel"]:checked');
     const radioSelectionne2 = document.querySelector('input[name="logiciel2"]:checked');
     const radioSelectionne3 = document.querySelector('input[name="logiciel3"]:checked');
