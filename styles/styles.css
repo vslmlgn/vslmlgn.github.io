@@ -105,8 +105,15 @@ img.trounoir{
     height: 300px;
     width: 400px;
 }
-.card:hover{
-    margin-bottom: 5px;
-    box-shadow: 5px 5px 20px #000000;
+.card {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
 }
-
+.card:hover,
+.card:focus,
+.card:active {
+  box-shadow: 1px 10px 10px -10px rgba(0, 0, 24, 0.5);
+  transform: scale(1.1);
+}
