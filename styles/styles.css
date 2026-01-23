@@ -22,13 +22,12 @@ img.introsys{
     float: left;
 }
 img.comparaison{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
 }
 img.gal{
     width: 290px;
     height: 220px;
-    float: left;
 }
 img.introsyst{
     width: 400px;
@@ -98,5 +97,12 @@ p{
     width: 900px;
     height: 500px;
 }
-
+img.Protérozoïque{
+    height: 310px;
+    width: 300px;
+}
+img.trounoir{
+    height: 300px;
+    width: 400px;
+}
 
